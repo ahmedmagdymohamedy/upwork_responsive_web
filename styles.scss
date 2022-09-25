@@ -45,6 +45,7 @@ li {
 
 p {
     font-size: 12px;
+    margin: 0 !important;
 }
 
 
@@ -63,10 +64,10 @@ p {
 
 
 .circle-btn {
-    height: 34px;
-    width: 34px;
+    height: 40px;
+    width: 40px;
     border-radius: 50px;
-    border: 1px solid rgb(235, 235, 235);
+    border: 1px solid rgb(220, 220, 220);
     // display: block;
     @extend .center;
 
@@ -282,6 +283,13 @@ main {
         width: 100%;
         padding: 20px 20px;
         border: 1px solid rgb(230, 230, 230);
-        border-radius: 4px;
+        // border-radius: 4px;
     }
+}
+
+.custom-tab-active {
+    background: transparent !important;
+    color: white !important;
+    border-bottom: 2px solid yellow !important;
+    border-radius: 0px !important;
 }
