@@ -184,12 +184,6 @@ input {
 
 
 nav {
-    padding: 0 120px !important;
-
-    @media (max-width: $breakpoint-tablet) {
-        display: none;
-    }
-
     #nav-body {
         color: white;
         height: 36px;
@@ -227,13 +221,7 @@ nav {
             li {
                 margin: 0 8px;
 
-                img {
-                    width: 38px;
-                    height: 38px;
-                    border-radius: 20px;
-                    object-fit: cover;
-                    margin-left: 20px;
-                }
+
             }
 
             .my-green {
@@ -243,9 +231,18 @@ nav {
             i {
                 font-size: 16px;
             }
+
+            img {
+                width: 38px;
+                height: 38px;
+                border-radius: 20px;
+                object-fit: cover;
+                margin-left: 20px;
+            }
         }
     }
 }
+
 
 main {
 
